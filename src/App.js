@@ -35,7 +35,7 @@ function App() {
 
   const calculateWorkout = () => {
     const currentDate = new Date();
-    currentDate.setDate(currentDate.getDate() + 3); // set the date to tomorrow
+    //currentDate.setDate(currentDate.getDate() + 3); // set the date to tomorrow
     const dayOfWeek = currentDate.getDay();
     let workout = {};
 
